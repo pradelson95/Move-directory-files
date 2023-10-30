@@ -10,7 +10,7 @@ try:
 
  # Mostrar todas las imagenes con extension png, jeeg y jpg
  search_files = [file for file in os.listdir(source_path) if re.search(r'\.(png|jpg|jpeg)$',file, re.IGNORECASE)]
- print(search_files)
+ print(f"current files: {search_files}")
 
 
  for f in search_files:
